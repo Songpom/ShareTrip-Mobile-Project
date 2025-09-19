@@ -7,7 +7,7 @@ import 'package:finalproject/screens/RegisterScreen.dart';
 // main tabs
 import 'package:finalproject/screens/home.dart';
 import 'package:finalproject/screens/ListMyTripScreen.dart';
-
+//welcome
 void main() {
   runApp(const MainApp());
 }
