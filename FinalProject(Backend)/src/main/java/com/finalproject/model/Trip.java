@@ -52,7 +52,7 @@ public class Trip {
     @JsonManagedReference
     private List<MemberTrip> memberTrips = new ArrayList<>();
 
-    @OneToMany(cascade = CascadeType.ALL) // หรือ OneToOne ก็ใส่ cascade ได้
+    @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "tripId", nullable = false)
     private List<Activity> activity = new ArrayList<>();
 }
